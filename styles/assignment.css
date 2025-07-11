@@ -31,8 +31,8 @@ button{
     font-size: 16px;
 }
 button:hover{
-    color: rgb(38, 185, 75);
-    background-color: rgb(39, 138, 177);
+    color: rgb(153, 34, 34);
+    background-color: rgb(170, 118, 41);
 }
     
 .font-r {
@@ -52,6 +52,11 @@ button:hover{
     font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: bold;
+}
+.font-i-lite {
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .s-first {
@@ -78,14 +83,31 @@ button:hover{
     background-color: rgba(78, 71, 255, 0.1);
     margin: 140px auto;
     text-align: center;
-    width: 1140px;
+    width: 50%;
     height: 300px;
+    padding: 50px 160px ;
+    border-radius: 24px;
+    border: none;
+    
 }
 .user-review{
     display: flex;
-   align-items: center;
-   justify-content: center;
-   gap: 160px ;
+   align-items:center;
+   justify-content:space-around;
+   
    
 }
-  
+.s-second-f-size{
+    font-size: 80px;
+    color: rgba(78, 71, 255, 1) ;
+}
+.section-second-title{
+    font-size: 30px;
+}
+.info{
+    font-size: 20px;
+    margin: none;
+}
+main .section-second h4, main .section-second h4 p{
+    margin: 0px;
+}
