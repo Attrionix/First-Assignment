@@ -2,6 +2,7 @@ nav{
     background-image: url(../Assets/Hero-bg.png);
    height: 700px;
    width: 100%;
+   margin-bottom:120px ;
 }
 .logonav{
     display: flex;
@@ -9,10 +10,8 @@ nav{
     justify-content: space-between;
 }
     
-nav li{
+li{
     list-style: none;
-    align-items: center;
-
 }
 .font-one{
     font-size: 65px;
@@ -21,9 +20,6 @@ nav li{
 .banner{
     text-align: center;
     margin: 152px 270px 152px 270px;
-}
-.banner-j{
-    justify-content:;
 }
 
 button{
@@ -45,11 +41,51 @@ button:hover{
     font-style: bold;
 
 }
+.font-r-lite{
+     font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
  
 .font-i {
     font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: bold;
-
 }
 
+.s-first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.imgborder{
+    border-radius: 48px;
+}
+
+.title-first{
+    font-size: 42px;
+    font-style: bold;
+
+}
+.text-color-a {
+    color: rgba(37, 36, 50, 0.35) ;
+    font-size: 20px;
+
+}
+.section-second{
+    background-color: rgba(78, 71, 255, 0.1);
+    margin: 140px auto;
+    text-align: center;
+    width: 1140px;
+    height: 300px;
+}
+.user-review{
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 160px ;
+   
+}
+  
