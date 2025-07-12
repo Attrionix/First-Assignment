@@ -60,6 +60,10 @@ button:hover {
   font-optical-sizing: auto;
   font-style: normal;
 }
+body {
+    background-color: rgba(255, 255, 255, 10);
+
+}
 
 .s-first {
     display: flex;
@@ -136,8 +140,11 @@ main .section-second p {
     border: 0px;
     border-radius: 48px;
 }
-.ands{
-    margin-bottom: 20px;
+.ands {
+    margin: 20px 150px;
+    background-color: rgb(252, 252, 252 ,1);
+    justify-content: center;
+
 }
 h4, p {
     margin: none
@@ -151,4 +158,18 @@ a {
 }
 .form-info {
     display: flex;
+    align-items: center;
+    margin:90px 110px ;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.5) ;
+}
+input {
+    display: block ;
+    width: 100%;
+    border: none;
+    background-color: beige;
+    border-radius: 10px;
+}
+.form-title {
+    font-size: 100px;
 }
